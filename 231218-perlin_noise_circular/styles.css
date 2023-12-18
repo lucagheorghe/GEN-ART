@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texting {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texting p {
+    font-family: Lexend;
+    font-size: 175px;
+    font-weight: 700;
+    color: red;
+    mix-blend-mode: difference;
+}
